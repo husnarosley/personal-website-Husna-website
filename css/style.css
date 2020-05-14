@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/bunga.jpg);  
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+  
+}
+
+ul li{
+  display: inline-block;
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a {
+  background-color: #fff;
+  color: #000;
+}
+.logo img{
+  float: left;
+  width: 90px;
+  height: auto;
+}  
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size: 70px;
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: o.6s ease;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+  
+}
+
+.wrapper{
+  margin : 0 auto;
+  width: 1000px;
+}
+
+.wrapper h1{
+  color: #fff;
+  font-family: vernada;
+}
+
+.img-husna{
+  width: 300px;
+  float: left;
+  
+}
+
+.container{
+  float: right;
+  position: relative;
+  background-image:background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/bunga.jpg);
+  color: #fff;  
+  font-family: sans-serif;
+}
+
+.h1{
+background-color: violet;
+text-align: center;
+color:purple;
+}
+
+.p{
+background-color: green;
+text-align: center;
+color:white;
+}
+
+table{
+background-color: green;
+text-align: center;
+color:white;
+width:100%;
+top: 60%;
+
+}
+
+th{
+height:60px;
+}
+
+td{
+height: 50px;
+vertical-align: center;
+}
+
+ul li{
+float: left;
+}
+
+image{
+top: 60%;
+width: 1000px;
+height: auto;
+border: 1px solid #fff;
+}
+
+h1{
+color: #fff;
+font-size: 40px;
+font-family: vernada;
+}
+
+container{
+margin: auto;
+position: center;
+color: #fff;
+}
+
+.text{
+   margin : 0 auto;
+  width: 1000px;
+}
+
+h1{
+  color: #fff;
+  font-family: vernada;
+  position: center;
+}
+
+img{
+  float: right;
+  width: 300px;
+  height: auto;  
+}
+
+p{
+color: #fff;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+}
+
+.gallery{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;
+}
+
+text{
+  float: left;
+  color: #fff;
+}
+
+
